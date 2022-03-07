@@ -1,0 +1,30 @@
+section {
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 30px;
+  height: 120px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 16px;
+  border-radius: 3px;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+}
+
+img {
+  cursor: pointer;
+  width: 62px;
+  border: 2px solid white;
+  height: 62px;
+  border-radius: 50%;
+}
+
+li {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: linear-gradient(220deg, #833ab4, #e1306c, #f77737, #ffdc80)
+    border-box;
+}
