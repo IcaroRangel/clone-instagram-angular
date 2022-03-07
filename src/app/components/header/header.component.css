@@ -11,6 +11,23 @@ header {
   align-items: center;
   width: 100%;
 }
+@media (max-width: 1023px) {
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .logo {
+    width: 120px !important;
+  }
+}
+@media (max-width: 721px) {
+  .search-input {
+    display: none !important;
+  }
+  .logo {
+    width: 80px !important;
+  }
+}
 
 .logo {
   width: 335px;
@@ -48,7 +65,7 @@ input::placeholder {
   flex: 1 0 127px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: flex-end;
 }
 
