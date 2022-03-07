@@ -2,16 +2,21 @@ section {
   margin-left: 130px;
   margin-right: 130px;
   margin-top: 30px;
+  width: 620px;
   height: 120px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   padding-left: 16px;
   border-radius: 3px;
   background: #fff;
   border: 1px solid #dbdbdb;
+  overflow-x: hidden;
 }
-
+ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
 img {
   cursor: pointer;
   width: 62px;
@@ -24,7 +29,29 @@ li {
   width: 66px;
   height: 66px;
   border-radius: 50%;
+  margin-top: 20px;
   border: 2px solid transparent;
   background: linear-gradient(220deg, #833ab4, #e1306c, #f77737, #ffdc80)
     border-box;
+}
+span {
+  text-align: center;
+  font-size: 12px;
+  margin-left: -4px;
+}
+button {
+  height: 45px;
+  width: 45px;
+  top: 20%;
+  left: 60%;
+  position: absolute;
+  background: none;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+.chevron {
+  width: 50%;
+  height: 50%;
+  background: #fff;
+  border: none;
 }
