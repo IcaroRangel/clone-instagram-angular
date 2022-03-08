@@ -1,0 +1,88 @@
+section {
+  right: 0;
+  top: 10%;
+  width: 25%;
+  margin-right: 130px;
+  position: absolute;
+  display: flex;
+  height: 85%;
+  margin-top: 50px;
+}
+img {
+  width: 56px;
+  height: 56px;
+  border-radius: 36px;
+}
+span {
+  font-size: 14px;
+  display: block;
+  padding-bottom: 2px;
+}
+.bold {
+  font-weight: bold;
+}
+.grey {
+  color: #8e8e8e;
+}
+.blue {
+  cursor: pointer;
+  color: #0095f6;
+  display: flex;
+  justify-content: flex-end;
+  width: 235px;
+  font-size: 12px;
+  position: relative;
+  bottom: 25px;
+  font-weight: bold;
+}
+
+.user {
+  display: block;
+  text-align: justify;
+  position: absolute;
+  width: 100px;
+  left: 75px;
+  margin-top: 12px;
+}
+.view-all {
+  font-size: 12px;
+}
+
+.sugestions {
+  position: absolute;
+  height: 100px;
+  font-size: 16px;
+  display: flex;
+  gap: 120px;
+  width: 110%;
+  align-items: flex-end;
+}
+
+ul {
+  width: 100%;
+  position: absolute;
+  height: 250px;
+  top: 20%;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+}
+li {
+  margin-bottom: -50px;
+  width: 110%;
+  margin-top: 12px;
+}
+
+.user-small {
+  position: relative;
+  bottom: 38px;
+  margin-left: 75px;
+
+  margin-top: 4px;
+}
+.small {
+  margin-left: -36px;
+  font-size: 12px;
+}
