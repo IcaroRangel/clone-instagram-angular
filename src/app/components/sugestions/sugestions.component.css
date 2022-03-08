@@ -50,6 +50,7 @@ span {
   margin-top: 12px;
 }
 .view-all {
+  cursor: pointer;
   font-size: 12px;
 }
 
@@ -77,7 +78,10 @@ ul {
 li {
   margin-bottom: -50px;
   width: 110%;
-  margin-top: 12px;
+  margin-top: 10px;
+}
+li:first-child {
+  margin-top: 24px;
 }
 
 .user-small {
