@@ -3,9 +3,9 @@ section {
   top: 10%;
   width: 25%;
   margin-right: 130px;
-  position: absolute;
+  position: fixed;
   display: flex;
-  height: 85%;
+  height: 80%;
   margin-top: 50px;
 }
 img {
@@ -79,10 +79,22 @@ li {
   position: relative;
   bottom: 38px;
   margin-left: 75px;
-
   margin-top: 4px;
 }
 .small {
   margin-left: -36px;
   font-size: 12px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 20%;
+}
+.footer-span {
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #8e8e8e;
 }

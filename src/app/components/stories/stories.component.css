@@ -34,7 +34,7 @@ ul {
 img {
   cursor: pointer;
   width: 62px;
-  border: 2px solid white;
+  border: 2px solid #fff;
   height: 62px;
   border-radius: 50%;
 }
