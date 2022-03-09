@@ -50,6 +50,10 @@ img {
   width: 100% !important;
   height: 100% !important;
 }
+.post-div {
+  width: 595px;
+  height: 595px;
+}
 .header-span {
   cursor: pointer;
   position: absolute;
