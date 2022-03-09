@@ -19,6 +19,9 @@ section {
   .comment {
     display: none !important;
   }
+  .save {
+    display: none;
+  }
 }
 @media (max-width: 300px) {
   .header-span {
@@ -27,9 +30,7 @@ section {
     overflow: hidden;
     text-overflow: " ";
   }
-  .save {
-    display: none;
-  }
+
   .ellipsis {
     display: none !important;
   }
@@ -80,6 +81,7 @@ span {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-right: 12px;
 }
 
 .icons {
@@ -92,8 +94,8 @@ svg {
   margin-left: 14px;
 }
 .save {
-  position: absolute;
-  right: 40%;
+  position: relative;
+  left: 72%;
 }
 .infos {
   background: red;
@@ -123,14 +125,21 @@ p {
   border-top: 1px solid #efefef;
 }
 input {
+  position: absolute;
   margin-left: 16px;
   font-size: 14px;
   outline: 0;
+  margin-left: 60px;
+}
+.emoji {
+  position: absolute;
 }
 
 .publish {
   cursor: pointer;
+  margin-right: 12px;
   color: #0095f6;
-  position: relative;
-  left: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }

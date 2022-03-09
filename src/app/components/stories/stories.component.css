@@ -10,6 +10,12 @@ section {
   border: 1px solid #dbdbdb;
   overflow-x: hidden;
 }
+@media (max-width: 1023px) {
+  section {
+    margin-left: 140px;
+    width: 70%;
+  }
+}
 @media (max-width: 650px) {
   section {
     margin-left: 0;
