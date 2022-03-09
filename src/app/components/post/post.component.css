@@ -3,23 +3,62 @@ section {
   margin-right: 130px;
   margin-top: 30px;
   width: 50%;
-  height: 700px;
+  height: 100%;
   border-radius: 3px;
   background: #fff;
   border: 1px solid #dbdbdb;
 }
+@media (max-width: 1023px) {
+  section {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .comment {
+    display: none !important;
+  }
+}
+@media (max-width: 300px) {
+  .header-span {
+    width: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ";
+  }
+  .save {
+    display: none;
+  }
+  .ellipsis {
+    display: none !important;
+  }
+}
+
 header {
   height: 60px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #dbdbdb;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 img {
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
+}
+.header-span {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 65px;
+  margin-bottom: 10px;
 }
 
 .storie-div {
+  cursor: pointer;
+  position: absolute;
   width: 40px;
   height: 40px;
   border-radius: 36px;
@@ -38,6 +77,60 @@ span {
   font-weight: bold;
 }
 .ellipsis {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+svg {
+  cursor: pointer;
+  margin-left: 14px;
+}
+.save {
+  position: absolute;
+  right: 40%;
+}
+.infos {
+  background: red;
+}
+span {
+  margin-top: 8px;
+  display: block;
+}
+p {
+  margin-left: 10px;
+  font-weight: 100;
+  display: inline;
+}
+
+.grey {
+  font-weight: 100;
+  cursor: pointer;
+  color: #8e8e8e;
+  font-size: 12px;
+}
+
+.comment {
+  height: 50px;
+  display: flex;
+  margin-top: 18px;
+  align-items: center;
+  border-top: 1px solid #efefef;
+}
+input {
+  margin-left: 16px;
+  font-size: 14px;
+  outline: 0;
+}
+
+.publish {
+  cursor: pointer;
+  color: #0095f6;
   position: relative;
-  left: 65%;
+  left: 45%;
 }
