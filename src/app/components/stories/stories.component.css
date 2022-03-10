@@ -14,7 +14,16 @@ section {
 @media (max-width: 1023px) {
   section {
     margin-left: 15%;
+    margin-right: 0;
     width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  section {
+    overflow-x: auto;
+  }
+  section::-webkit-scrollbar {
+    width: 0;
   }
 }
 @media (max-width: 425px) {
