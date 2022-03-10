@@ -13,9 +13,6 @@ além disso um bom editor de texto [VsCode](https://code.visualstudio.com/downlo
 # clone este repositório
 git clone <https://github.com/IcaroRangel/clone-instagram-angular.git>
 
-# acesse a pasta
-cd frontend
-
 # instalando dependencias
 npm install / yarn
 
