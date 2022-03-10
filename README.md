@@ -1,5 +1,33 @@
-# CLONE-INSTAGRAM-ANGULAR
+# CRUD-REACT-NODE
 
-Projeto CRUD sobre paciente utilizando React JS e Node JS.
+<p>Projeto CRUD sobre paciente utilizando Angular e Typescript</p>
 
-🚧 Projeto 🚀 em construção... 🚧
+# Pré-requisitos
+Você vai prescisar ter no seu computador:
+[Git](https://git-scm.com/),
+além disso um bom editor de texto [VsCode](https://code.visualstudio.com/download).
+
+# Rodando o Front-end
+
+```bash
+# clone este repositório
+git clone <https://github.com/IcaroRangel/clone-instagram-angular.git>
+
+# acesse a pasta
+cd frontend
+
+# instalando dependencias
+npm install / yarn
+
+# execute a aplicação
+npm start / yarn start
+```
+
+### Tecnologias ⚒️
+
+As seguintes tecnologias foram utilizadas no projeto: 
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [Angular](https://angular.io/)
+
+Feito por Icaro Cesar R. 🤠  [acesse meu linkedin](https://www.linkedin.com/in/icaro-rangel-6a68b222b/).
