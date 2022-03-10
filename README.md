@@ -1,4 +1,4 @@
-# CRUD-REACT-NODE
+# CLONE-INSTAGRAM-ANGULAR
 
 <p>Projeto CRUD sobre paciente utilizando Angular e Typescript</p>
 
