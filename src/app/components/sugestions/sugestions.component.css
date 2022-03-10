@@ -29,7 +29,7 @@ span {
 .grey {
   color: #8e8e8e;
 }
-.blue {
+.link {
   cursor: pointer;
   color: #0095f6;
   display: flex;

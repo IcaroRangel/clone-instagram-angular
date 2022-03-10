@@ -15,16 +15,12 @@ section {
     width: 70%;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .comment {
     display: none !important;
   }
-  .save {
-    display: none;
-  }
 }
-@media (max-width: 320px) {
-}
+
 @media (max-width: 425px) {
   section {
     margin-left: 0;
@@ -102,12 +98,12 @@ svg {
   margin-left: 14px;
 }
 .save {
-  position: relative;
-  left: 72%;
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  padding-right: 12px;
 }
-.infos {
-  background: red;
-}
+
 span {
   margin-top: 8px;
   display: block;
@@ -123,6 +119,7 @@ p {
   cursor: pointer;
   color: #8e8e8e;
   font-size: 12px;
+  margin-bottom: 12px;
 }
 
 .comment {
