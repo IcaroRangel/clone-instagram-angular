@@ -1,27 +1,30 @@
-# CloneInstagramAngular
+# CLONE-INSTAGRAM-ANGULAR
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
+<p>Projeto CRUD sobre paciente utilizando Angular e Typescript</p>
 
-## Development server
+# Pré-requisitos
+Você vai prescisar ter no seu computador:
+[Git](https://git-scm.com/),
+além disso um bom editor de texto [VsCode](https://code.visualstudio.com/download).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Rodando o Front-end
 
-## Code scaffolding
+```bash
+# clone este repositório
+git clone <https://github.com/IcaroRangel/clone-instagram-angular.git>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# instalando dependencias
+npm install / yarn
 
-## Build
+# execute a aplicação
+npm start / yarn start
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Tecnologias ⚒️
 
-## Running unit tests
+As seguintes tecnologias foram utilizadas no projeto: 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [TypeScript](https://www.typescriptlang.org/)
+- [Angular](https://angular.io/)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feito por Icaro Cesar R. 🤠  [acesse meu linkedin](https://www.linkedin.com/in/icaro-rangel-6a68b222b/).
