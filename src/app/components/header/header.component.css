@@ -29,6 +29,17 @@ header {
     width: 80px !important;
   }
 }
+@media (max-width: 375px) {
+  header {
+    padding: 0;
+  }
+  svg {
+    margin-left: 10px !important;
+  }
+  .profile {
+    margin-left: 10px !important;
+  }
+}
 
 .logo {
   width: 335px;
@@ -66,7 +77,6 @@ input::placeholder {
   flex: 1 0 127px;
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
   justify-content: flex-end;
 }
 
