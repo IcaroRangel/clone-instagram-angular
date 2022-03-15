@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { StoriesComponent } from './components/stories/stories.component';
 import { SugestionsComponent } from './components/sugestions/sugestions.component';
 import { PostComponent } from './components/post/post.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [
@@ -16,13 +17,10 @@ import { PostComponent } from './components/post/post.component';
     HeaderComponent,
     StoriesComponent,
     SugestionsComponent,
-    PostComponent
+    PostComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, SlickCarouselModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

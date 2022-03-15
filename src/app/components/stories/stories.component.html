@@ -1,63 +1,14 @@
 <section>
-  <div class="socorro">
-    <button class="advance">
-      <img class="arrow" src="../../../assets/angle-left-solid.svg" /></button
-    ><button class="return">
-      <img class="arrow" src="../../../assets/angle-right-solid.svg" />
-    </button>
-  </div>
   <ul>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/18/56/56" />
-      <span>Usuário 1</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/22/56/56" />
-      <span>Usuário 2</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/39/56/56" />
-      <span>Usuário 3</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/41/56/56" />
-      <span>Usuário 4</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/57/56/56" />
-      <span>Usuário 5</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/91/56/56" />
-      <span>Usuário 6</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/107/56/56" />
-      <span>Usuário 7</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/295/56/56" />
-      <span>Usuário 8</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/309/56/56" />
-      <span>Usuário 9</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/400/56/56" />
-      <span>Usuário 10</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/411/56/56" />
-      <span>Usuário 11</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/512/56/56" />
-      <span>Usuário 12</span>
-    </li>
-    <li>
-      <img alt="Foto do perfil" src="https://picsum.photos/id/613/56/56" />
-      <span>Usuário 13</span>
-    </li>
+    <ngx-slick-carousel
+      class="carousel"
+      #slickModal="slick-carousel"
+      [config]="slideConfig"
+    >
+      <li ngxSlickItem *ngFor="let slide of slides" class="slide">
+        <img src="{{ slide.img }}" alt="" />
+        <span>{{ slide.user }}</span>
+      </li></ngx-slick-carousel
+    >
   </ul>
 </section>
