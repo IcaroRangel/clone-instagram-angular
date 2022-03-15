@@ -5,9 +5,11 @@
       #slickModal="slick-carousel"
       [config]="slideConfig"
     >
-      <li ngxSlickItem *ngFor="let slide of slides" class="slide">
-        <img src="{{ slide.img }}" alt="" />
-        <span>{{ slide.user }}</span>
+      <li ngxSlickItem *ngFor="let slide of slides">
+        <div class="instagram-gradient">
+          <img src="{{ slide.img }}" alt="" class="slide" />
+          <span>{{ slide.user }}</span>
+        </div>
       </li></ngx-slick-carousel
     >
   </ul>

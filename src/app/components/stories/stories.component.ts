@@ -23,6 +23,6 @@ export class StoriesComponent {
 
   public slideConfig = {
     slidesToShow: 7,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
   };
 }
