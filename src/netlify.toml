@@ -6,4 +6,5 @@
      from = "/*" 
      to = "/index.html"
      status = 200
-
+[build.environment]
+  NODE_VERSION = "v16.13.2"
