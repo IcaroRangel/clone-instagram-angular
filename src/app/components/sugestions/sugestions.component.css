@@ -1,3 +1,8 @@
+@media (min-width: 2560px) {
+  section {
+    width: 30% !important;
+  }
+}
 section {
   right: 0;
   top: 13%;
@@ -60,8 +65,8 @@ span {
   font-size: 16px;
   padding: 0;
   display: flex;
-  gap: 120px;
-  width: 130%;
+  gap: 130px;
+  width: 120%;
   align-items: flex-end;
 }
 

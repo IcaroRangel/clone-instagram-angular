@@ -72,7 +72,7 @@ span {
     height: 83px !important;
   }
 
-  .dsa {
+  .instagram-gradient {
     width: 46px !important;
     height: 46px !important;
   }
@@ -108,4 +108,23 @@ span {
   border-radius: 50%;
   background: linear-gradient(220deg, #833ab4, #e1306c, #f77737, #ffdc80)
     border-box;
+}
+
+@media (min-width: 2560px) {
+  li {
+    width: 130px !important;
+    height: 130px !important;
+    padding-left: 30px;
+  }
+  .carousel {
+    padding-top: 60px !important;
+  }
+}
+
+@media (width: 1440px) {
+  li {
+    width: 100px !important;
+    height: 100px !important;
+    padding-top: 60px !important ;
+  }
 }
