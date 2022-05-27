@@ -2,6 +2,9 @@
 
 <p>Projeto CRUD sobre paciente utilizando Angular e Typescript</p>
 
+# Netlify
+[Acesse o projeto pelo netlify](https://clone-instagram-angular.netlify.app/)
+
 # Pré-requisitos
 Você vai prescisar ter no seu computador:
 [Git](https://git-scm.com/),
