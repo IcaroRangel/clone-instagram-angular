@@ -6,11 +6,13 @@
       [config]="slideConfig"
     >
       <li ngxSlickItem *ngFor="let slide of slides">
-        <div class="instagram-gradient">
-          <img src="{{ slide.img }}" alt="" class="slide" />
-          <span>{{ slide.user }}</span>
+        <div class="storie-wrapper">
+          <div class="instagram-gradient">
+            <img src="{{ slide.img }}" alt="" class="slide" />
+            <span>{{ slide.user }}</span>
+          </div>
         </div>
-      </li></ngx-slick-carousel
-    >
+      </li>
+    </ngx-slick-carousel>
   </ul>
 </section>

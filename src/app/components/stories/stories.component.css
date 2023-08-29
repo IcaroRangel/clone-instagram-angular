@@ -38,10 +38,13 @@ img {
 }
 
 li {
-  width: 66px !important;
-  height: 66px !important;
-
-  margin-right: 20px;
+  width: 100px !important;
+  height: 100px !important;
+}
+.storie-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 span {
@@ -54,6 +57,40 @@ span {
   margin-top: 6px;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+@media (max-width: 1279px) {
+  .carousel {
+    padding-bottom: 60px !important;
+    width: 200%;
+  }
+
+  li {
+    width: 83px !important;
+    height: 83px !important;
+  }
+
+  .instagram-gradient {
+    width: 46px !important;
+    height: 46px !important;
+  }
+}
+
+@media (max-width: 1422px) {
+  .carousel {
+    padding-bottom: 0px;
+    width: 200%;
+  }
+
+  li {
+    width: 83px !important;
+    height: 83px !important;
+  }
+
+  .instagram-gradient {
+    width: 46px !important;
+    height: 46px !important;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -78,11 +115,20 @@ span {
   }
 }
 
+@media (max-width: 435px) {
+  ul {
+    margin-top: 40px !important;
+  }
+}
 @media (max-width: 425px) {
   section {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
+  }
+
+  ul {
+    margin-top: 0px !important;
   }
 }
 @media (min-width: 1280px) {
@@ -96,9 +142,16 @@ span {
     width: 200%;
   }
 }
+
 @media (max-width: 375px) {
   ul {
     padding-top: 40px !important;
+  }
+}
+
+@media (min-width: 305px) {
+  ul {
+    padding-top: 0px !important;
   }
 }
 .instagram-gradient {
